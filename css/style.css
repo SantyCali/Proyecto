@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #dc7b3b;
+}
+
+
+header{
+    background-color: rgb(235, 94, 24);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 12vh;
+
+
+}
+
+
+header img{
+    width: 140px;
+    height: 130px;
+    padding: 25px;
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+
+header a:hover{
+    color: white;
+
+}
+
+header nav ul li{
+    display: inline-flex;
+    padding: 5px;
+}
+
+/* ------SECTION 1----- */
+
+
+
+
+ .section1 .texto{
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section1_index{
+    background-color: #e88d4b;
+}
+
+#foto1{
+    height: 267px;
+}
+
+.image_1{
+    height: 330px;
+    width: 350px;
+    margin-right: 130px;
+    margin-left: 20px;
+    padding: 5px;
+    border: solid white 3px;
+    display: inline-flex;
+    
+}
+
+
+.texto_2{
+    background-color: rgb(239, 141, 60);
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.9em;
+}
+
+.section2{
+    display: flex;
+    background-color: rgba(246, 90, 6, 0.638);
+    flex-direction: column;
+    
+    
+    
+
+}
+
+
+
+.section2 img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    border: solid white 5px;
+    
+   
+
+}
+
+.section2 p{
+    background-color: rgb(240, 91, 4);
+    display: flex;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4em;
+    
+}
+
+footer {
+    background-color: rgb(235, 94, 24);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/* -------- Ofertas.html ---------- */
+
+
+
+
+
+ .caja_1{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+    
+    
+}
+
+.caja_1 img{
+    height: 330px;
+    width: 350px;
+    margin-left: 10px;
+    
+    
+
+}
+
+
+
+.caja_1 p{
+    text-align: end;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    
+    
+    
+
+    
+}
+
+
+.caja_2{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+    
+}
+
+.caja_2 p{
+
+    text-align: end;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1.9em;
+   
+
+}
+
+.caja_2 img{
+    height: 330px;
+    width: 350px;
+    margin-left: 10px;
+    
+
+}
+
+.caja_3{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+
+
+
+}
+
+
+.caja_3 img{
+    height: 330px;
+    width: 350px;
+    margin-left: 10px;
+
+}
+
+
+.caja_3 p{
+    text-align: end;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1.9em;
+
+}
+
+.caja_4{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+
+}
+
+.caja_4 img{
+    height: 330px;
+    width: 350px;
+    margin-left: 10px;
+
+
+    
+
+}
+
+
+.caja_4 p{
+    text-align: end;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1.9em;
+
+
+}
+
+
+
+/* ---------- Fin de Ofertas.html -------- */
+
+
+
+
+
+/* ------------  Servicios --------------- */
+
+.caja_servicios_1{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+.caja_servicios_1 p{
+    text-align: end;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1.9em;
+
+}
+
+.caja_servicios_2{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+.caja_servicios_2 p{
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 2.9em;
+    margin-top: 70px;
+
+}
+
+.caja_servicios_2 img{
+    height: 330px;
+    width: 350px;
+    margin-left: 100px;
+    display: inline-flex;
+}
+
+
+
+/* ------------ Fin de Servicios --------- */
+
+
+
+
+
+
+
+/* -------------- Loteria ----------------- */
+
+
+
+
+.caja_loteria_1{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+
+}
+
+.caja_loteria_1 img{
+    height: 330px;
+    width: 350px;
+    margin-left: 600px;
+    
+    
+    
+    
+}
+
+.caja_loteria_1 p{
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1.9em;
+    margin-bottom: 80px;
+
+
+
+
+}
+
+
+
+.caja_loteria_2{
+    background-color: #e88d4b;
+    color: white;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+
+.caja_loteria_2 img{
+    height: 330px;
+    width: 350px;
+    margin-left: 100px;
+    display: inline-flex;
+}
+
+.caja_loteria_2 p{
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 2.9em;
+    margin-top: 70px;
+
+}
+
+
+
+/* ---------- Fin de Loteria ----------- */
+
+
+
+
+
+
+/* ----------- Ubicación --------------- */
+
+
+
+
+.ubicacion{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    margin-bottom: 100px;
+    width: 1200px;
+    height: 800px;
+}
+
+.p_ubicacion{
+    background-color: #e88d4b;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.4em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.p_ubicacion_2{
+    background-color: #e88d4b;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.4em;
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+
+/* ---------- Fin de Ubicación ----------- */
